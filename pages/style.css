@@ -1,0 +1,103 @@
+body{
+  background-image: linear-gradient( to bottom, black , rgb(42, 39, 39));
+
+   }
+
+section
+  {font-family:'Square Peg', cursive;
+  color: whitesmoke;
+  text-align:center;
+  font-size: 2rem;
+  font-style: italic;
+ }
+
+ header{
+   size: 2rem;
+ }
+
+title{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+    font-style: italic;
+  }
+fieldset{
+      padding: 1px;
+      text-align: center;
+      color: red;
+      size: 1rem;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+      p { font-family: 'Square Peg', cursive;
+        text-align:left;
+        color: whitesmoke;
+        font-size: 1rem;
+        font-style: italic;
+        padding: 10px;  
+        text-align-last: left;} 
+
+h1{   font-family: 'Square Peg';
+      text-align:center;
+      font-size: 6rem;
+      color: whitesmoke;
+      font-style: italic;
+      }
+    h1 {
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+        
+        } 
+      @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+      100% {
+        opacity: 1;
+      }
+      }
+h2{ font-family: 'Square Peg', cursive;
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: 10px;  
+    text-align-last: center;}
+
+h3{ padding: auto;
+      text-align: center;
+      color: whitesmoke;
+      size: 1rem;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif} 
+h4{
+        padding: 1px;
+        text-align: left;
+       color: rgb(241, 241, 241);
+       size: 0rem;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif} 
+       a, body{
+        color: aliceblue;
+        size: 1rem;}
+
+ 
+  
+li{ font-family: 'Square Peg', cursive;
+   size: 1cm; 
+   text-align:left;
+   color: whitesmoke;
+   font-style: italic;
+   display: inline-block;
+   padding: 0.5 rem;
+   list-style-type: none;}
+li p:hover{
+    font-size: 30px;
+    text-decoration:underline;
+    
+    }
+
+
+a{
+    color: rgb(255, 255, 255);
+   
+  }
+
+
+   
+
